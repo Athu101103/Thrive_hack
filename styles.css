@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0 20;
+    background-color: #5e57b3;
+}
+
+.sidebar {
+    background-color: #84a4c5a9; /* Dark blue */
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding-top: 20px;
+    overflow-y: auto; /* Enable scrolling if content exceeds the height */
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    text-align: center;
+}
+
+.sidebar ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #ffffff; /* White */
+}
+
+.sidebar ul li a:hover {
+    background-color: #2c3e50; /* Darker blue on hover */
+}
+
+.container {
+    max-width: 800; /* Adjust based on sidebar width */
+    margin-left: 300px; /* Same as sidebar width */
+    margin-right: 200px;
+    padding: 20px 50px 20px 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(128, 72, 72, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: inline-block;
+    width: calc(33.33% - 10px); 
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+div input[type="radio"],
+div label {
+    display: inline-block;
+    margin-right: 10px; /* Adjust as needed */
+}
+
+
+input[type="checkbox"] {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.address-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.address {
+    flex: 0 0 calc(33.33% - 10px); /* Adjust width as needed */
+    margin-right: 10px; /* Adjust spacing between address fields */
+}
+
+.address label,
+.address input[type="text"] {
+    display: block;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select,
+textarea {
+    width: calc(100% - 16px); /* Adjust for padding and border */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+h2, h5 {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+
+fieldset {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+
+#signature-container {
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+canvas {
+    border: 1px solid #ccc;
+    cursor: crosshair;
+}
+
+#clear-signature {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    padding: 5px 10px;
+    background-color: #c23c3c;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}

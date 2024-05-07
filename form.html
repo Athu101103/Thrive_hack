@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Doctor Enrollment Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Thrive Health</h1>
+    </header>
+    <nav class="sidebar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Appointments</a></li>
+            <li><a href="#">Patients</a></li>
+        </ul>
+    </nav>    
+        <div class="container">
+            <form id="enrollment-form">
+                <h2>Patient Enrollment and Consent form</h2>
+                <h5>Create and Record patient and caretaker Information</h5>
+                
+                <fieldset id="Personal">
+                    <legend>Section 1 - I want to enroll myself with the family doctor</legend>
+
+
+                    <div class="form-group">
+                        <label for="last-name">Last Name*</label>
+                        <input type="text" id="last-name" name="last-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="first-name">First Name*</label>
+                        <input type="text" id="first-name" name="first-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="middle-name">Middle Name*</label>
+                        <input type="text" id="middle-name" name="middle-name">
+                    </div>
+                    <div class="form-group">
+                        <label for="dob">Date of Birth*</label>
+                        <input type="date" id="dob" name="dob" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="sex">Sex*</label>
+                        <select id="sex" name="sex" required>
+                            <option value="">Select</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="health-number">Health Number*</label>
+                        <input type="text" id="health-number" name="health-number" required>
+                    </div>
+                    <!-- change from here -->
+                    <div >
+                        <label for="email" id="email">Email*</label>
+                        <br>
+                        <input type="email" id="email" name="email" required>
+                    </div><br>
+
+                    <div>
+                        <label>Send notices from my family doctor's office:</label>
+        
+                        <div>
+                            <input type="radio" id="send-notices-mail" name="send-notices" value="mail">
+                            <label for="send-notices-mail">Regular Mail</label>
+                            <input type="radio" id="send-notices-email" name="send-notices" value="email">
+                            <label for="send-notices-email">Email (if possible)</label>
+                        </div>
+                        
+                    </div>
+
+                    <br>
+                    <label for="Mailing-address">Mailing address</label>
+                    <hr>
+                    <div class="address-container">
+                        <div class="address">
+                            <label>Address 1*</label>
+                            <input type="text" id="Mailing-address" required placeholder="Apartment NO">
+                        </div>
+                        
+                        <div class="address">
+                            <label>City/town*</label>
+                            <input type="text" id="city" required placeholder="Enter caregiver firstname">
+                        </div>
+                        
+                        <div class="address">
+                            <label>Postal code*</label>
+                            <input type="text" id="code" placeholder="Enter caregiver phone number" required>
+                        </div>
+                    </div>
+                    
+                    <br>
+                    <label for="residence-address">Residence Address</label>
+                    <hr>
+                    <div class="address-container">
+                        <div class="address">
+                            <label>Address 1*</label>
+                            <input type="text" id="Mailing-address" required placeholder="Apartment NO">
+                        </div>
+                        
+                        <div class="address">
+                            <label>City/town*</label>
+                            <input type="text" id="city" required placeholder="Enter caregiver firstname">
+                        </div>
+                        
+                        <div class="address">
+                            <label>Postal code*</label>
+                            <input type="text" id="code" placeholder="Enter caregiver phone number" required>
+                        </div>
+                    </div>
+
+                </fieldset>
+
+                <br>
+
+
+                <fieldset id="Personal">
+                    <legend>Section 2 - I want to enroll my Child(ren) under 16 and/or adult(s) with the family doctor identified</legend>
+
+
+                    <div class="form-group">
+                        <label for="last-name">Last Name*</label>
+                        <input type="text" id="last-name" name="last-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="first-name">First Name*</label>
+                        <input type="text" id="first-name" name="first-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="middle-name">Middle Name*</label>
+                        <input type="text" id="middle-name" name="middle-name">
+                    </div>
+                    <div class="form-group">
+                        <label for="dob">Date of Birth*</label>
+                        <input type="date" id="dob" name="dob" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="sex">Sex*</label>
+                        <select id="sex" name="sex" required>
+                            <option value="">Select</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="health-number">Health Number*</label>
+                        <input type="text" id="health-number" name="health-number" required>
+                    </div>
+                    <!-- change from here -->
+                    <div >
+                        <label for="email" id="email">Email*</label>
+                        <br>
+                        <input type="email" id="email" name="email" required>
+                    </div><br>
+
+                    <div>
+                        <label>Send notices from my family doctor's office:</label>
+        
+                        <div>
+                            <input type="radio" id="send-notices-mail" name="send-notices" value="mail">
+                            <label for="send-notices-mail">Regular Mail</label>
+                            <input type="radio" id="send-notices-email" name="send-notices" value="email">
+                            <label for="send-notices-email">Email (if possible)</label>
+                        </div>
+                        
+                    </div>
+
+                    <br>
+                    <label for="Mailing-address">Mailing address</label>
+                    <hr>
+                    <div class="address-container">
+                        <div class="address">
+                            <label>Address 1*</label>
+                            <input type="text" id="Mailing-address" required placeholder="Apartment NO">
+                        </div>
+                        
+                        <div class="address">
+                            <label>City/town*</label>
+                            <input type="text" id="city" required placeholder="Enter caregiver firstname">
+                        </div>
+                        
+                        <div class="address">
+                            <label>Postal code*</label>
+                            <input type="text" id="code" placeholder="Enter caregiver phone number" required>
+                        </div>
+                    </div>
+                    
+                    <br>
+                    <label for="residence-address">Residence Address</label>
+                    <hr>
+                    <div class="address-container">
+                        <div class="address">
+                            <label>Address 1*</label>
+                            <input type="text" id="Mailing-address" required placeholder="Apartment NO">
+                        </div>
+                        
+                        <div class="address">
+                            <label>City/town*</label>
+                            <input type="text" id="city" required placeholder="Enter caregiver firstname">
+                        </div>
+                        
+                        <div class="address">
+                            <label>Postal code*</label>
+                            <input type="text" id="code" placeholder="Enter caregiver phone number" required>
+                        </div>
+                    </div>
+
+                </fieldset>
+
+
+                <br>
+
+                <fieldset>
+                    <legend>Section 3 - Signature</legend>
+                    <h4>Consent</h4>
+                    <p id="consent">
+                        I have read and agree to the patient Commitment the consent to Release Personal information and the Cancellation and the Cancellation
+                        Conditions on the back of this form . I acknowledge that this enrollment is not intended to be a legally binding contract and is not intended to give rise to any new legal obligations 
+                        between my family doctor and me 
+                    </p>
+                    <label>I am signing on behalf of(check all that apply)</label><br>
+                    <input type="radio" id="Consent" >
+                    <label for="Consent">Myself</label>
+                    <input type="radio" id="Consent" >
+                    <label for="Consent">Child(ren)</label>
+                    <input type="radio" id="Consent" >
+                    <label for="Consent">dependent adult(s)</label>
+
+                    <div class="form-group">
+                        <label for="last-name">Last Name*</label>
+                        <input type="text" id="last-name" name="last-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="first-name">First Name*</label>
+                        <input type="text" id="first-name" name="first-name" required>
+                    </div>
+
+                    <label for="signature">Signature</label>
+                    <div id="signature-container">
+                        <canvas id="signature-pad" width="300" height="100"></canvas>
+                        <button id="clear-signature">Clear</button>
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <label for="dob">Date of Birth*</label>
+                        <input type="date" id="dob" name="dob" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="first-name">Home Telephone No*</label>
+                        <input type="text" id="Home-NO" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="last-name">Work Telephone No*</label>
+                        <input type="text" id="Work-NO"  required>
+                    </div>
+                    
+
+                </fieldset>
+
+                <fieldset id="doctor">
+                <legend>Section 4 - Family Doctor Information</legend>
+                <div >
+                    <label for="notes">Notes</label>
+                    <textarea id="notes" name="notes" rows="4"></textarea>
+                </div>
+                <br>
+                <label for="signature">Signature</label>
+                <div id="signature-container">
+                    <canvas id="signature-pad" width="300" height="100"></canvas>
+                    <button id="clear-signature">Clear</button>
+                </div>
+                <br>
+                
+                <div class="form-group">
+                    <label for="date">Date*</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+            </fieldset>
+            <div class="form-group">
+                <button type="button" onclick="cancelForm()">Cancel</button>
+                <button type="submit">Save</button>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
