@@ -52,7 +52,9 @@ Login/Signup: Users can create an account or log in to access the enrollment for
 
 https://www.loom.com/share/81298b7a65a4402da75c32bf4379a769
 
-Summary:
+**Summary:**
+
+
 The code creates a web-based enrollment system for a family doctor, allowing users to submit their details, store them in a database, and optionally download an editable PDF for their records.
 
 
