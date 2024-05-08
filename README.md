@@ -22,23 +22,37 @@ Login/Signup: Users can create an account or log in to access the enrollment for
 **Tech Stack**
   Frontend:
 
-  
     HTML
-    
     CSS
-    
     JavaScript
     
   Backend:
+  
     Node.js
   Database:
+  
     MongoDB
 
 
 **Usage**
+
+
 1.Registration/Login: Users can create an account or log in to access the enrollment form.
+
+
 2.Enrollment Form: Fill out the enrollment form with the required personal and contact details.
+
+
 3.PDF Download: After submitting the form, users can download an editable PDF containing their information.
 
+
+
 **link for loom vid:**
+
+
 https://www.loom.com/share/81298b7a65a4402da75c32bf4379a769
+
+Summary:
+The code creates a web-based enrollment system for a family doctor, allowing users to submit their details, store them in a database, and optionally download an editable PDF for their records.
+
+
